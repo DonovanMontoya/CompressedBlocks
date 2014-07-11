@@ -1,0 +1,16 @@
+[
+{
+  "modid": "CompressedBlocks",
+  "name": "Compressed Blocks",
+  "description": "Adds compressed Minecraft blocks. Inspired by RWTema's Compressed Cobblestone",
+  "version": "0.0 Alpha",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheChromeCrafter"],
+  "credits": "My friends who supported me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [None]
+}
+]

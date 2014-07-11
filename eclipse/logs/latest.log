@@ -1,0 +1,31 @@
+[17:48:37] [main/INFO]: Setting user: TheChromeCrafter
+[17:48:40] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:48:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Compressed Blocks
+[17:48:47] [Sound Library Loader/INFO]: Sound engine started
+[17:48:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:48:48] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:48:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Compressed Blocks
+[17:48:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:48:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:48:50] [Sound Library Loader/INFO]: Sound engine started
+[17:49:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:49:08] [Server thread/INFO]: Generating keypair
+[17:49:09] [Server thread/INFO]: Preparing start region for level 0
+[17:49:09] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:49:10] [Server thread/INFO]: TheChromeCrafter[local:E:5a0c255c] logged in with entity id 245 at (604.5524062484028, 4.0, -395.5204092002796)
+[17:49:10] [Server thread/INFO]: TheChromeCrafter joined the game
+[17:49:10] [Server thread/INFO]: Saving and pausing game...
+[17:49:10] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[17:49:10] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[17:49:10] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[17:49:21] [Server thread/INFO]: [TheChromeCrafter: Given [Iron Pickaxe] * 1 to TheChromeCrafter]
+[17:49:21] [Client thread/INFO]: [CHAT] Given [Iron Pickaxe] * 1 to TheChromeCrafter
+[17:49:53] [Client thread/INFO]: Stopping!
+[17:49:53] [Server thread/INFO]: Stopping server
+[17:49:53] [Server thread/INFO]: Saving players
+[17:49:53] [Server thread/INFO]: Saving worlds
+[17:49:53] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[17:49:53] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[17:49:53] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[17:49:53] [Client Shutdown Thread/INFO]: Stopping server
+[17:49:53] [Client Shutdown Thread/INFO]: Saving players
