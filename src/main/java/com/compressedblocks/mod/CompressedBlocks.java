@@ -37,9 +37,13 @@ public class CompressedBlocks {
 
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CompDiamondBlock), "xxx", "xxx", "xxx", 'x', Blocks.diamond_block);
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.DoubleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.CompDiamondBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.TripleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.DoubleCompDiamondBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.QuadrupleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.TripleCompDiamondBlock);
 
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.diamond_block, 9), new Object[]{ModBlocks.CompDiamondBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.CompDiamondBlock, 9), new Object[]{ModBlocks.DoubleCompDiamondBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.DoubleCompDiamondBlock, 9), new Object[]{ModBlocks.TripleCompDiamondBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.TripleCompDiamondBlock, 9), new Object[]{ModBlocks.QuadrupleCompDiamondBlock});
 
 
     }

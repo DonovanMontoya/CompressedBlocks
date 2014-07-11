@@ -14,6 +14,7 @@ public class DoubleCompressedDiamondBlock extends BlockCB
         this.setHardness(10.0F);
         this.setResistance(60.0f);
         this.setHarvestLevel("pickaxe", 3);
+
     }
 
 }

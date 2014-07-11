@@ -1,2 +1,4 @@
 tile.compressedblocks:CompDiamondBlock.name=Compressed Diamond Block
 tile.compressedblocks:DoubleCompDiamondBlock.name=Double Compressed Diamond Block
+tile.compressedblocks:TripleCompDiamondBlock.name=Triple Compressed Diamond Block
+tile.compressedblocks:QuadrupleCompDiamondBlock.name=Quadruple Compressed Diamond Block
