@@ -1,5 +1,6 @@
 package com.compressedblocks.mod.blocks;
 
+import com.compressedblocks.mod.creativetab.CreativeTabCompressedBlocks;
 import com.compressedblocks.mod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -10,8 +11,10 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 public class BlockCB extends Block
 {
     public BlockCB(Material material)
+
     {
         super(material);
+        this.setCreativeTab(CreativeTabCompressedBlocks.CB_TAB);
     }
 
     public BlockCB()
