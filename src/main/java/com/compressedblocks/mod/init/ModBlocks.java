@@ -11,6 +11,7 @@ public class ModBlocks
     public static final BlockCB TripleCompDiamondBlock = new TripleCompressedDiamondBlock();
     public static final BlockCB QuadrupleCompDiamondBlock = new QuadrupleCompressedDiamondBlock();
     public static final BlockCB QuintupleCompDiamondBlock = new QuintupleCompressedDiamondBlock();
+    public static final BlockCB SextupleCompDiamondBlock = new SextupleCompressedDiamondBlock();
     public static void init()
     {
         GameRegistry.registerBlock(CompDiamondBlock, ItemBlockCompDiamondBlock.class, "Compressed Diamond Block");
@@ -18,6 +19,7 @@ public class ModBlocks
         GameRegistry.registerBlock(TripleCompDiamondBlock, ItemBlockTripleCompDiamondBlock.class, "Triple Compressed Diamond Block");
         GameRegistry.registerBlock(QuadrupleCompDiamondBlock, ItemBlockQuadrupleCompDiamondBlock.class, "Quadruple Compressed Diamond Block");
         GameRegistry.registerBlock(QuintupleCompDiamondBlock, ItemBlockQuintupleCompDiamondBlock.class, "Quintuple Compressed Diamond Block");
+        GameRegistry.registerBlock(SextupleCompDiamondBlock, ItemBlockSextupleCompDiamondBlock.class, "Sextuple Compressed Diamond Block");
 
     }
 

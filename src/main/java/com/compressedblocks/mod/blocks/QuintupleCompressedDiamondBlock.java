@@ -12,8 +12,8 @@ public class QuintupleCompressedDiamondBlock extends BlockCB
             this.setBlockName("QuintupleCompDiamondBlock");
             this.setStepSound(soundTypeMetal);
             this.setBlockTextureName("QuintupleCompDiamondBlock");
-            this.setHardness(10.0F);
-            this.setResistance(60.0f);
+            this.setHardness(50.0F);
+            this.setResistance(150.0f);
             this.setHarvestLevel("pickaxe", 3);
         }
 
