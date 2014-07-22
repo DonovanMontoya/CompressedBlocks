@@ -4,3 +4,5 @@ tile.compressedblocks:TripleCompDiamondBlock.name=Triple Compressed Diamond Bloc
 tile.compressedblocks:QuadrupleCompDiamondBlock.name=Quadruple Compressed Diamond Block
 tile.compressedblocks:QuintupleCompDiamondBlock.name=Quintuple Compressed Diamond Block
 tile.compressedblocks:SextupleCompDiamondBlock.name=Sextuple Compressed Diamond Block
+tile.compressedblocks:SeptupleCompDiamondBlock.name=Septuple Compressed Diamond Block
+tile.compressedblocks:OctupleCompDiamondBlock.name=Octuple Compressed Diamond Block

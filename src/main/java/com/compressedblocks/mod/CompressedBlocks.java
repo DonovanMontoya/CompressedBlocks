@@ -18,7 +18,8 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 
 @Mod(modid= Reference.MOD_ID, name= Reference.MOD_NAME, version= Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
-public class CompressedBlocks {
+public class CompressedBlocks
+{
     @Mod.Instance(Reference.MOD_ID)
     public static CompressedBlocks instance;
 
@@ -27,7 +28,8 @@ public class CompressedBlocks {
 
 
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
+    public void preInit(FMLPreInitializationEvent event)
+    {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre-Initialization Complete!");
@@ -41,6 +43,8 @@ public class CompressedBlocks {
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.QuadrupleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.TripleCompDiamondBlock);
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.QuintupleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.QuadrupleCompDiamondBlock);
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.SextupleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.QuintupleCompDiamondBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.SeptupleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.SextupleCompDiamondBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.OctupleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.SeptupleCompDiamondBlock);
 
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.diamond_block, 9), new Object[]{ModBlocks.CompDiamondBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.CompDiamondBlock, 9), new Object[]{ModBlocks.DoubleCompDiamondBlock});
@@ -48,6 +52,8 @@ public class CompressedBlocks {
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.TripleCompDiamondBlock, 9), new Object[]{ModBlocks.QuadrupleCompDiamondBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.QuadrupleCompDiamondBlock, 9), new Object[]{ModBlocks.QuintupleCompDiamondBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.QuintupleCompDiamondBlock, 9), new Object[]{ModBlocks.SextupleCompDiamondBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.SextupleCompDiamondBlock, 9), new Object[]{ModBlocks.SeptupleCompDiamondBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.SeptupleCompDiamondBlock, 9), new Object[]{ModBlocks.OctupleCompDiamondBlock});
 
 
 
@@ -58,7 +64,7 @@ public class CompressedBlocks {
         LogHelper.info("Initialization Complete!");
     }
 
-    @EventHandler
+
     public void postInit(FMLPostInitializationEvent event)
     {
         LogHelper.info("Post-Initialization Complete!");
