@@ -6,3 +6,12 @@ tile.compressedblocks:QuintupleCompDiamondBlock.name=Quintuple Compressed Diamon
 tile.compressedblocks:SextupleCompDiamondBlock.name=Sextuple Compressed Diamond Block
 tile.compressedblocks:SeptupleCompDiamondBlock.name=Septuple Compressed Diamond Block
 tile.compressedblocks:OctupleCompDiamondBlock.name=Octuple Compressed Diamond Block
+
+tile.compressedblocks:CompIronBlock.name=Compressed Iron Block
+tile.compressedblocks:DoubleCompIronBlock.name=Double Compressed Iron Block
+tile.compressedblocks:TripleCompIronBlock.name=Triple Compressed Iron Block
+tile.compressedblocks:QuadrupleCompIronBlock.name=Quadruple Compressed Iron Block
+tile.compressedblocks:QuintupleCompIronBlock.name=Quintuple Compressed Iron Block
+tile.compressedblocks:SextupleCompIronBlock.name=Sextuple Compressed Iron Block
+tile.compressedblocks:SeptupleCompIronBlock.name=Septuple Compressed Iron Block
+tile.compressedblocks:OctupleCompIronBlock.name=Octuple Compressed Iron Block

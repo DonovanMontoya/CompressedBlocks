@@ -14,6 +14,21 @@ public class ModBlocks
     public static final BlockCB SextupleCompDiamondBlock = new SextupleCompressedDiamondBlock();
     public static final BlockCB SeptupleCompDiamondBlock = new SeptupleCompressedDiamondBlock();
     public static final BlockCB OctupleCompDiamondBlock = new OctupleCompressedDiamondBlock();
+
+    public static final BlockCB CompIronBlock = new CompressedIronBlock();
+    public static final BlockCB DoubleCompIronBlock = new DoubleCompressedIronBlock();
+    public static final BlockCB TripleCompIronBlock = new TripleCompressedIronBlock();
+    public static final BlockCB QuadrupleCompIronBlock = new QuadrupleCompressedIronBlock();
+    public static final BlockCB QuintupleCompIronBlock = new QuintupleCompressedIronBlock();
+    public static final BlockCB SextupleCompIronBlock = new SextupleCompressedIronBlock();
+    public static final BlockCB SeptupleCompIronBlock = new SeptupleCompressedIronBlock();
+    public static final BlockCB OctupleCompIronBlock = new OctupleCompressedIronBlock();
+
+
+
+
+
+
     public static void init()
     {
         GameRegistry.registerBlock(CompDiamondBlock, ItemBlockCompDiamondBlock.class, "Compressed Diamond Block");
@@ -24,6 +39,22 @@ public class ModBlocks
         GameRegistry.registerBlock(SextupleCompDiamondBlock, ItemBlockSextupleCompDiamondBlock.class, "Sextuple Compressed Diamond Block");
         GameRegistry.registerBlock(SeptupleCompDiamondBlock, ItemBlockSeptupleCompDiamondBlock.class, "Septuple Compressed Diamond Block");
         GameRegistry.registerBlock(OctupleCompDiamondBlock, ItemBlockOctupleCompDiamondBlock.class, "Octuple Compressed Diamond Block");
+
+        GameRegistry.registerBlock(CompIronBlock, ItemBlockCompIronBlock.class, "Compressed Iron Block");
+        GameRegistry.registerBlock(DoubleCompIronBlock, ItemBlockDoubleCompIronBlock.class, "Double Compressed Iron Block");
+        GameRegistry.registerBlock(TripleCompIronBlock, ItemBlockTripleCompIronBlock.class, "Triple Compressed Iron Block");
+        GameRegistry.registerBlock(QuadrupleCompIronBlock, ItemBlockQuadrupleCompIronBlock.class, "Quadruple Compressed Iron Block");
+        GameRegistry.registerBlock(QuintupleCompIronBlock, ItemBlockQuintupleCompIronBlock.class, "Quintuple Compressed Iron Block");
+        GameRegistry.registerBlock(SextupleCompIronBlock, ItemBlockSextupleCompIronBlock.class, "Sextuple Compressed Iron Block");
+        GameRegistry.registerBlock(SeptupleCompIronBlock, ItemBlockSeptupleCompIronBlock.class, "Septuple Compressed Iron Block");
+        GameRegistry.registerBlock(OctupleCompIronBlock, ItemBlockOctupleCompIronBlock.class, "Octuple Compressed Iron Block");
+
+
+
+
+
+
+
 
     }
 
