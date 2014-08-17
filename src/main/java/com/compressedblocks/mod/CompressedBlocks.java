@@ -36,7 +36,7 @@ public class CompressedBlocks
 
         ModBlocks.init();
 
-
+        //Diamond
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CompDiamondBlock), "xxx", "xxx", "xxx", 'x', Blocks.diamond_block);
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.DoubleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.CompDiamondBlock);
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.TripleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.DoubleCompDiamondBlock);
@@ -46,6 +46,7 @@ public class CompressedBlocks
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.SeptupleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.SextupleCompDiamondBlock);
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.OctupleCompDiamondBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.SeptupleCompDiamondBlock);
 
+
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.diamond_block, 9), new Object[]{ModBlocks.CompDiamondBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.CompDiamondBlock, 9), new Object[]{ModBlocks.DoubleCompDiamondBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.DoubleCompDiamondBlock, 9), new Object[]{ModBlocks.TripleCompDiamondBlock});
@@ -54,6 +55,26 @@ public class CompressedBlocks
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.QuintupleCompDiamondBlock, 9), new Object[]{ModBlocks.SextupleCompDiamondBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.SextupleCompDiamondBlock, 9), new Object[]{ModBlocks.SeptupleCompDiamondBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.SeptupleCompDiamondBlock, 9), new Object[]{ModBlocks.OctupleCompDiamondBlock});
+
+        //Iron
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CompIronBlock), "xxx", "xxx", "xxx", 'x', Blocks.iron_block);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.DoubleCompIronBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.CompIronBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.TripleCompIronBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.DoubleCompIronBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.QuadrupleCompIronBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.TripleCompIronBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.QuintupleCompIronBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.QuadrupleCompIronBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.SextupleCompIronBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.QuintupleCompIronBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.SeptupleCompIronBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.SextupleCompIronBlock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.OctupleCompIronBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.SeptupleCompIronBlock);
+
+
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.iron_block, 9), new Object[]{ModBlocks.CompIronBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.CompIronBlock, 9), new Object[]{ModBlocks.DoubleCompIronBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.DoubleCompIronBlock, 9), new Object[]{ModBlocks.TripleCompIronBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.TripleCompIronBlock, 9), new Object[]{ModBlocks.QuadrupleCompIronBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.QuadrupleCompIronBlock, 9), new Object[]{ModBlocks.QuintupleCompIronBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.QuintupleCompIronBlock, 9), new Object[]{ModBlocks.SextupleCompIronBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.SextupleCompIronBlock, 9), new Object[]{ModBlocks.SeptupleCompIronBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.SeptupleCompIronBlock, 9), new Object[]{ModBlocks.OctupleCompIronBlock});
 
 
 

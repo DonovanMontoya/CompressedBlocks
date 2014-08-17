@@ -5,4 +5,4 @@ Compressed Blocks in Minecraft
 
 
 
-Latest Download Link: http://bit.ly/CompressedBlocks
+Latest Download Link: http://bit.ly/CompBlocksMod
