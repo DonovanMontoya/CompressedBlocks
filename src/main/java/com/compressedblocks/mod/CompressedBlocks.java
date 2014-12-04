@@ -79,11 +79,12 @@ public class CompressedBlocks {
 
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CompCoalBlock), "xxx", "xxx", "xxx", 'x', Blocks.coal_block);
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.DoubleCompCoalBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.CompCoalBlock);
-
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.TripleCompCoalBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.DoubleCompCoalBlock);
 
 
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.coal_block, 9), new Object[]{ModBlocks.CompCoalBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.CompCoalBlock, 9), new Object[]{ModBlocks.DoubleCompCoalBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.DoubleCompCoalBlock, 9), new Object[]{ModBlocks.TripleCompCoalBlock});
 
 
 
