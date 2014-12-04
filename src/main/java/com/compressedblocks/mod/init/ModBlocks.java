@@ -24,6 +24,8 @@ public class ModBlocks
     public static final BlockCB SeptupleCompIronBlock = new SeptupleCompressedIronBlock();
     public static final BlockCB OctupleCompIronBlock = new OctupleCompressedIronBlock();
 
+    public static final BlockCB CompCoalBlock = new CompressedCoalBlock();
+    public static final BlockCB DoubleCompCoalBlock = new DoubleCompressedCoalBlock();
 
 
 
@@ -49,6 +51,8 @@ public class ModBlocks
         GameRegistry.registerBlock(SeptupleCompIronBlock, ItemBlockSeptupleCompIronBlock.class, "Septuple Compressed Iron Block");
         GameRegistry.registerBlock(OctupleCompIronBlock, ItemBlockOctupleCompIronBlock.class, "Octuple Compressed Iron Block");
 
+        GameRegistry.registerBlock(CompCoalBlock, ItemBlockCompCoalBlock.class, "Compressed Coal Block");
+        GameRegistry.registerBlock(DoubleCompCoalBlock, ItemBlockDoubleCompCoalBlock.class, "Double Compressed Coal Block");
 
 
 

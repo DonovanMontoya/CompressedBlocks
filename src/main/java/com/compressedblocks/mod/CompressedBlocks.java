@@ -18,8 +18,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 
 @Mod(modid= Reference.MOD_ID, name= Reference.MOD_NAME, version= Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
-public class CompressedBlocks
-{
+public class CompressedBlocks {
     @Mod.Instance(Reference.MOD_ID)
     public static CompressedBlocks instance;
 
@@ -28,13 +27,14 @@ public class CompressedBlocks
 
 
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
+    public void preInit(FMLPreInitializationEvent event) {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre-Initialization Complete!");
 
         ModBlocks.init();
+
+//GameRegistry.registerFuelHandler(new FuelHandler());
 
         //Diamond
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CompDiamondBlock), "xxx", "xxx", "xxx", 'x', Blocks.diamond_block);
@@ -75,6 +75,24 @@ public class CompressedBlocks
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.QuintupleCompIronBlock, 9), new Object[]{ModBlocks.SextupleCompIronBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.SextupleCompIronBlock, 9), new Object[]{ModBlocks.SeptupleCompIronBlock});
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.SeptupleCompIronBlock, 9), new Object[]{ModBlocks.OctupleCompIronBlock});
+
+
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CompCoalBlock), "xxx", "xxx", "xxx", 'x', Blocks.coal_block);
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.DoubleCompCoalBlock), "xxx", "xxx", "xxx", 'x', ModBlocks.CompCoalBlock);
+
+
+
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.coal_block, 9), new Object[]{ModBlocks.CompCoalBlock});
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.CompCoalBlock, 9), new Object[]{ModBlocks.DoubleCompCoalBlock});
+
+
+
+
+
+
+
+
+
 
 
 

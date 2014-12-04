@@ -15,3 +15,6 @@ tile.compressedblocks:QuintupleCompIronBlock.name=Quintuple Compressed Iron Bloc
 tile.compressedblocks:SextupleCompIronBlock.name=Sextuple Compressed Iron Block
 tile.compressedblocks:SeptupleCompIronBlock.name=Septuple Compressed Iron Block
 tile.compressedblocks:OctupleCompIronBlock.name=Octuple Compressed Iron Block
+
+tile.compressedblocks:CompCoalBlock.name=Compressed Coal Block
+tile.compressedblocks:DoubleCompCoalBlock.name=Double Compressed Coal Block
