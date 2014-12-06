@@ -27,7 +27,7 @@ public class ModBlocks
     public static final BlockCB CompCoalBlock = new CompressedCoalBlock();
     public static final BlockCB DoubleCompCoalBlock = new DoubleCompressedCoalBlock();
     public static final BlockCB TripleCompCoalBlock = new TripleCompressedCoalBlock();
-
+    public static final BlockCB QuadrupleCompCoalBlock = new QuadrupleCompressedCoalBlock();
 
 
 
@@ -54,7 +54,7 @@ public class ModBlocks
         GameRegistry.registerBlock(CompCoalBlock, ItemBlockCompCoalBlock.class, "Compressed Coal Block");
         GameRegistry.registerBlock(DoubleCompCoalBlock, ItemBlockDoubleCompCoalBlock.class, "Double Compressed Coal Block");
         GameRegistry.registerBlock(TripleCompCoalBlock, ItemBlockTripleCompCoalBlock.class, "Triple Compressed Coal Block");
-
+        GameRegistry.registerBlock(QuadrupleCompCoalBlock, ItemBlockQuadrupleCompCoalBlock.class, "Quadruple Compressed Coal Block");
 
 
 

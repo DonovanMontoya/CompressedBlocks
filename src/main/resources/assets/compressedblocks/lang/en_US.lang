@@ -19,7 +19,7 @@ tile.compressedblocks:OctupleCompIronBlock.name=Octuple Compressed Iron Block
 tile.compressedblocks:CompCoalBlock.name=Compressed Coal Block
 tile.compressedblocks:DoubleCompCoalBlock.name=Double Compressed Coal Block
 tile.compressedblocks:TripleCompCoalBlock.name=Triple Compressed Coal Block
-
+tile.compressedblocks:QuadrupleCompCoalBlock.name=Quadruple Compressed Coal Block
 
 
 

@@ -2,6 +2,7 @@ package com.compressedblocks.mod;
 
 import com.compressedblocks.mod.blocks.CompressedDiamondBlock;
 import com.compressedblocks.mod.handler.ConfigurationHandler;
+import com.compressedblocks.mod.handler.FuelHandler;
 import com.compressedblocks.mod.init.ModBlocks;
 import com.compressedblocks.mod.proxy.IProxy;
 import com.compressedblocks.mod.reference.Reference;
@@ -34,7 +35,8 @@ public class CompressedBlocks {
 
         ModBlocks.init();
 
-//GameRegistry.registerFuelHandler(new FuelHandler());
+        //Fuel
+        GameRegistry.registerFuelHandler(new FuelHandler());
 
         //Diamond
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CompDiamondBlock), "xxx", "xxx", "xxx", 'x', Blocks.diamond_block);
