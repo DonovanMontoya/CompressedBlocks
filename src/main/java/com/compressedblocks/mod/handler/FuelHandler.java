@@ -25,7 +25,7 @@ public class FuelHandler implements IFuelHandler
             return 10497600;
         }
         if(fuel.getItem() == Item.getItemFromBlock(ModBlocks.QuadrupleCompCoalBlock)) {
-            return 94478400;
+           return 94478400;
         }
         return 0;
     }

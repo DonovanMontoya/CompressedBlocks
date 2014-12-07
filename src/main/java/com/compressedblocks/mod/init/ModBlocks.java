@@ -6,8 +6,8 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModBlocks
 {
-   public static final BlockCB CompDiamondBlock = new CompressedDiamondBlock();
-   public static final BlockCB DoubleCompDiamondBlock = new DoubleCompressedDiamondBlock();
+    public static final BlockCB CompDiamondBlock = new CompressedDiamondBlock();
+    public static final BlockCB DoubleCompDiamondBlock = new DoubleCompressedDiamondBlock();
     public static final BlockCB TripleCompDiamondBlock = new TripleCompressedDiamondBlock();
     public static final BlockCB QuadrupleCompDiamondBlock = new QuadrupleCompressedDiamondBlock();
     public static final BlockCB QuintupleCompDiamondBlock = new QuintupleCompressedDiamondBlock();
@@ -28,7 +28,7 @@ public class ModBlocks
     public static final BlockCB DoubleCompCoalBlock = new DoubleCompressedCoalBlock();
     public static final BlockCB TripleCompCoalBlock = new TripleCompressedCoalBlock();
     public static final BlockCB QuadrupleCompCoalBlock = new QuadrupleCompressedCoalBlock();
-
+    public static final BlockCB QuintupleCompCoalBlock = new QuintupleCompressedCoalBlock();
 
 
     public static void init()
@@ -55,7 +55,7 @@ public class ModBlocks
         GameRegistry.registerBlock(DoubleCompCoalBlock, ItemBlockDoubleCompCoalBlock.class, "Double Compressed Coal Block");
         GameRegistry.registerBlock(TripleCompCoalBlock, ItemBlockTripleCompCoalBlock.class, "Triple Compressed Coal Block");
         GameRegistry.registerBlock(QuadrupleCompCoalBlock, ItemBlockQuadrupleCompCoalBlock.class, "Quadruple Compressed Coal Block");
-
+        GameRegistry.registerBlock(QuintupleCompCoalBlock, ItemBlockQuintupleCompCoalBlock.class, "Quintuple Compressed Coal Block");
 
 
 
